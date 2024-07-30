@@ -226,6 +226,8 @@
 /about/groups/eowg/participants/index.html
 /about/groups/eowg/participate/index.html
 /about/groups/index.html
+/about/groups/task-forces/adapt/index.html
+/about/groups/task-forces/adapt/work-statement/index.html
 /about/groups/task-forces/coga/index.html
 /about/groups/task-forces/coga/work-statement/index.html
 /about/groups/task-forces/conformance-testing/index.html
@@ -239,8 +241,6 @@
 /about/groups/task-forces/matf/index.html
 /about/groups/task-forces/maturity-model/index.html
 /about/groups/task-forces/maturity-model/work-statement/index.html
-/about/groups/task-forces/personalization/index.html
-/about/groups/task-forces/personalization/work-statement/index.html
 /about/groups/task-forces/practices/index.html
 /about/groups/task-forces/practices/work-statement/index.html
 /about/groups/task-forces/pronunciation/index.html
