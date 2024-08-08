@@ -9,15 +9,15 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1723104793162122925";
+      element.src = "/WAI/assets/scripts/main.js?1723117544323383893";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1723104793162122925">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1723117544323383893">
 
-<title> Equal Access Accessibility Checker ACT Implementation |  | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1723104793162122925"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title> Equal Access Accessibility Checker ACT Implementation |  | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1723117544323383893"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.3" />
 <meta property="og:title" content="Equal Access Accessibility Checker ACT Implementation" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -306,7 +306,7 @@ h2#sidebar-header {
       version 3.1.42-rc.0
      is an Automated tool
       by <a href="https://www.ibm.com/">IBM Accessibility</a>.
-      The test results were last updated 4 June 2024.
+      The test results were last updated 7 August 2024.
 
     
 
@@ -326,13 +326,13 @@ h2#sidebar-header {
     </tr>
     <tr>
       <th>WCAG 2 rules</th>
-      <td>22</td>
-      <td>3</td>
+      <td>20</td>
+      <td>4</td>
     </tr>
     <tr>
       <th>Proposed rules</th>
-      <td>3</td>
-      <td>3</td>
+      <td>5</td>
+      <td>1</td>
     </tr>
   </tbody></table>
 </div>
@@ -528,8 +528,8 @@ h2#sidebar-header {
           </a></td>
           <td>
             WCAG 2 Rule </td>
-          <td>
-            Consistent </td>
+          <td> Partial
+          </td>
         </tr>
       
       
@@ -545,16 +545,6 @@ h2#sidebar-header {
         </tr>
       
       
-      
-        <tr>
-          <td><a href="#breakdown-7d6734">
-            SVG element with explicit role has non-empty accessible name
-          </a></td>
-          <td>
-            WCAG 2 Rule </td>
-          <td>
-            Consistent </td>
-        </tr>
       
       
       
@@ -674,8 +664,8 @@ h2#sidebar-header {
           </a></td>
           <td> Proposed Rule
           </td>
-          <td> Partial
-          </td>
+          <td>
+            Consistent </td>
         </tr>
       
       
@@ -688,8 +678,8 @@ h2#sidebar-header {
           </a></td>
           <td> Proposed Rule
           </td>
-          <td> Partial
-          </td>
+          <td>
+            Consistent </td>
         </tr>
       
       
@@ -2970,13 +2960,12 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
 <h3 id="breakdown-23a2a8">Image has non-empty accessible name</h3>
 <p>
   This rule is implemented by Equal Access Accessibility Checker using the
-  <code>img_alt_valid:pass,fail_blank_alt,fail_no_alt,fail_blank_title</code>, and <code>aria_img_labelled:Pass_0,Fail_1,Fail_2,Fail_3</code> procedures.
-    Failed examples should be failed by <em>at least one</em> of these procedures.
-  The implementation is 
-    fully  consistent with the
+  <code>img_alt_valid:pass,fail_blank_alt,fail_no_alt,fail_blank_title</code> procedure.
+  The implementation is  partially 
+   consistent with the
   <a href="/WAI/standards-guidelines/act/rules/23a2a8">Image has non-empty accessible name</a>
   WCAG 2 rule. 
-    It covers all 18 examples.
+    It covers 16 of the 18 examples.
   
   
     The implementation correctly reports which success criteria are failed by this rule.
@@ -3023,7 +3012,6 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
       <tr>
         <th></th>
         <th>img_alt_valid:pass,fail_blank_alt,fail_no_alt,fail_blank_title</th>
-        <th>aria_img_labelled:Pass_0,Fail_1,Fail_2,Fail_3</th>
       </tr>
     </thead>
 
@@ -3033,64 +3021,54 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/32bfac8a98cc212aa7bf9151bf40f665a7f51696.html">Passed Example 1</a>
         </th>
         <td class="">passed</td>
-        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/38cc6a87fcc81fcc2248f0cd74ca48396b7aa432.html">Passed Example 2</a>
         </th>
         <td class="">inapplicable</td>
-        <td class="">passed</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/feb06eece7b158ab66a25bfa2c47a196309f0d93.html">Passed Example 3</a>
         </th>
         <td class="">inapplicable</td>
-        <td class="">passed</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/40d83620b0bcbcf0e7380177384f48596823e7a9.html">Passed Example 4</a>
         </th>
         <td class="">passed</td>
-        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/2f35ed62ed14afb6d9e8b886e95e846f0cfa0d2a.html">Passed Example 5</a>
         </th>
         <td class="">passed</td>
-        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/e8f40f5af06646ef15283302903f6c78f7d7a505.html">Passed Example 6</a>
         </th>
         <td class="">passed</td>
-        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/13b8678881fba03e7465f82b5550abc5093f7968.html">Passed Example 7</a>
         </th>
         <td class="">passed</td>
-        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/ba9cdf6d0c336f0abf7cd2992c4a2a62c6c719fd.html">Passed Example 8</a>
         </th>
         <td class="">passed</td>
-        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/8006d1541dc71b93e6ec4d101a386e0043d1a521.html">Failed Example 1</a>
         </th>
         <td class="">failed</td>
-        <td class="
-            act-false-negative">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -3098,23 +3076,18 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
         </th>
         <td class="
             act-false-negative">inapplicable</td>
-        <td class="">failed</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/fef9a3ad8b2f2a6beeaf44ef7dafce08e743ea67.html">Failed Example 3</a>
         </th>
         <td class="">failed</td>
-        <td class="
-            act-false-negative">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/b0348c1e6fced2df1ebd93caef4d383f6c7a0461.html">Failed Example 4</a>
         </th>
         <td class="">failed</td>
-        <td class="
-            act-false-negative">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -3122,13 +3095,11 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
         </th>
         <td class="
             act-false-negative">passed</td>
-        <td class="">failed</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/cd3b3a4046451da9b9cc3e166c09d27583a2c30b.html">Inapplicable Example 1</a>
         </th>
-        <td class="">inapplicable</td>
         <td class="">inapplicable</td>
       </tr>
       <tr>
@@ -3136,13 +3107,11 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/25e5364c0a1320a08e2742fa59a0f8627591bc61.html">Inapplicable Example 2</a>
         </th>
         <td class="">inapplicable</td>
-        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/e15b9aca4aaa53cb3a96ae48e78e1af064b9a01d.html">Inapplicable Example 3</a>
         </th>
-        <td class="">inapplicable</td>
         <td class="">inapplicable</td>
       </tr>
       <tr>
@@ -3150,13 +3119,11 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/7d696551efaafa0da33bb6e56b8b43707c7c7de9.html">Inapplicable Example 4</a>
         </th>
         <td class="">inapplicable</td>
-        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/f7692caf5f8c788d58e1aeb8d4f1f240fafdfa91.html">Inapplicable Example 5</a>
         </th>
-        <td class="">inapplicable</td>
         <td class="">inapplicable</td>
       </tr>
     </tbody>
@@ -3399,145 +3366,6 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/c487ae/7b3b94c0e39bed9d432f379efa77ba9f54c81c6d.html">Failed Example 11</a>
         </th>
         <td class="">failed</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<h3 id="breakdown-7d6734">SVG element with explicit role has non-empty accessible name</h3>
-<p>
-  This rule is implemented by Equal Access Accessibility Checker using the
-  <code>aria_img_labelled:Pass_0,Fail_2</code>, and <code>aria_graphic_labelled:Pass_0,Fail_2</code> procedures.
-    Failed examples should be failed by <em>at least one</em> of these procedures.
-  The implementation is 
-    fully  consistent with the
-  <a href="/WAI/standards-guidelines/act/rules/7d6734">SVG element with explicit role has non-empty accessible name</a>
-  WCAG 2 rule. 
-    It covers all 10 examples.
-  
-  
-    The implementation correctly reports which success criteria are failed by this rule.
-  
-  See <a href="../#understanding-act-consistency">understanding ACT consistency</a>.
-</p>
-
-
-<div class="scroll-wrap">
-  <table class="act-requirements">
-    <caption>Success Criteria</caption>
-    <tbody><tr> <th>Expected</th> <th>Reported</th></tr>
-    <tr>
-      <td>
-        
-          <ul>
-            <li>
-              1.1.1
-              Non-text Content
-            </li>
-          </ul>
-        
-      </td>
-
-      <td>
-        
-          <ul>
-            <li>
-              1.1.1
-              Non-text Content
-            </li>
-          </ul>
-        
-      </td>
-    </tr>
-  </tbody></table>
-</div>
-
-
-<div class="scroll-wrap">
-  <table class="act-example-outcomes">
-    <caption>Test Results</caption>
-    <thead>
-      <tr>
-        <th></th>
-        <th>aria_img_labelled:Pass_0,Fail_2</th>
-        <th>aria_graphic_labelled:Pass_0,Fail_2</th>
-      </tr>
-    </thead>
-
-    <tbody>
-      <tr>
-        <th>
-          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/7d6734/cc172d9a654d94e00505456845920c099fbabfa7.html">Passed Example 1</a>
-        </th>
-        <td class="">passed</td>
-        <td class="">inapplicable</td>
-      </tr>
-      <tr>
-        <th>
-          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/7d6734/8ad324fd8d3f5113f72ac40f978a85e1777d43d1.html">Passed Example 2</a>
-        </th>
-        <td class="">inapplicable</td>
-        <td class="">passed</td>
-      </tr>
-      <tr>
-        <th>
-          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/7d6734/f2af674524641f89a409d5f91caf512b162d5778.html">Passed Example 3</a>
-        </th>
-        <td class="">inapplicable</td>
-        <td class="">passed</td>
-      </tr>
-      <tr>
-        <th>
-          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/7d6734/2847ca922fa3564341094245c34ef3120167bc0b.html">Failed Example 1</a>
-        </th>
-        <td class="">failed</td>
-        <td class="
-            act-false-negative">inapplicable</td>
-      </tr>
-      <tr>
-        <th>
-          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/7d6734/e1724dd3a91aff66b84807df1b9dbbaeaf272189.html">Failed Example 2</a>
-        </th>
-        <td class="">failed</td>
-        <td class="
-            act-false-negative">inapplicable</td>
-      </tr>
-      <tr>
-        <th>
-          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/7d6734/c65600eae4b88d275675cb976ceac01b9a4f47e4.html">Failed Example 3</a>
-        </th>
-        <td class="
-            act-false-negative">inapplicable</td>
-        <td class="">failed</td>
-      </tr>
-      <tr>
-        <th>
-          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/7d6734/94396aaa5928a68aba7320ea3690ca6c302fdcab.html">Failed Example 4</a>
-        </th>
-        <td class="">failed</td>
-        <td class="
-            act-false-negative">inapplicable</td>
-      </tr>
-      <tr>
-        <th>
-          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/7d6734/1f2223805c79c21fade3ebf0d9a29f979c16f581.html">Inapplicable Example 1</a>
-        </th>
-        <td class="">inapplicable</td>
-        <td class="">inapplicable</td>
-      </tr>
-      <tr>
-        <th>
-          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/7d6734/b3c602b7aa172611a22304666dd8d81d6ce8d214.html">Inapplicable Example 2</a>
-        </th>
-        <td class="">inapplicable</td>
-        <td class="">inapplicable</td>
-      </tr>
-      <tr>
-        <th>
-          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/7d6734/ec2a7a47c3850e8aacd971a445b90390b2ab73bb.html">Inapplicable Example 3</a>
-        </th>
-        <td class="">inapplicable</td>
-        <td class="">inapplicable</td>
       </tr>
     </tbody>
   </table>
@@ -4727,13 +4555,12 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
 <h3 id="breakdown-bisz58">Meta element has no refresh delay (no exception)</h3>
 <p>
   This rule is implemented by Equal Access Accessibility Checker using the
-  <code>meta_redirect_optional:pass,fail,fail_longrefresh</code>, and <code>meta_refresh_delay:Pass_0,Potential_1</code> procedures.
-    Failed examples should be failed by <em>at least one</em> of these procedures.
+  <code>meta_refresh_delay:Pass_0,Potential_1</code> procedure.
   The implementation is  partially 
    consistent with the
   <a href="/WAI/standards-guidelines/act/rules/bisz58">Meta element has no refresh delay (no exception)</a>
   WCAG 2 rule. 
-    It covers 12 of the 13 examples.
+    It covers 10 of the 13 examples.
     On 1 example
     the implementation cannot tell the outcome. This is often because of technical 
     limitations in tools.
@@ -4788,7 +4615,6 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
     <thead>
       <tr>
         <th></th>
-        <th>meta_redirect_optional:pass,fail,fail_longrefresh</th>
         <th>meta_refresh_delay:Pass_0,Potential_1</th>
       </tr>
     </thead>
@@ -4799,28 +4625,23 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/6a414a1455a58e4505d7c550486d628f0fd80fdd.html">Passed Example 1</a>
         </th>
         <td class="">passed</td>
-        <td class="">passed</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/24a98a3ff6a69e073f768bb198671ea6a1c4568a.html">Passed Example 2</a>
         </th>
         <td class="">passed</td>
-        <td class="">passed</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/ecc787569c06640f3748ae90e2b57fb51c1e22d8.html">Failed Example 1</a>
         </th>
-        <td class="
-            act-false-negative">passed</td>
         <td class="act-cannot-tell">cannot tell</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/d0672e81d17313f7ef156f3bc6e43c68143a5f45.html">Failed Example 2</a>
         </th>
-        <td class="">failed</td>
         <td class="
             act-false-negative">passed</td>
       </tr>
@@ -4828,7 +4649,6 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/b8aad77e3ff2fa8d0272fac5362566ff79afad7f.html">Failed Example 3</a>
         </th>
-        <td class="">failed</td>
         <td class="
             act-false-negative">passed</td>
       </tr>
@@ -4837,13 +4657,11 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/3761ce87e64549073f62df26071fbde9850e649e.html">Inapplicable Example 1</a>
         </th>
         <td class="">inapplicable</td>
-        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/c73e036ba88dbbedf6b6a90b69328208eb1e14d0.html">Inapplicable Example 2</a>
         </th>
-        <td class="">inapplicable</td>
         <td class="">inapplicable</td>
       </tr>
       <tr>
@@ -4851,13 +4669,11 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/31864b9243c7565e802c6b4f36faed5861a631d3.html">Inapplicable Example 3</a>
         </th>
         <td class="">inapplicable</td>
-        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/e6e51895cab42ee6adf2ade5b654808d830e673b.html">Inapplicable Example 4</a>
         </th>
-        <td class="">inapplicable</td>
         <td class="">inapplicable</td>
       </tr>
       <tr>
@@ -4865,13 +4681,11 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/a32834c94a9dd1869e22ccfb0b7b753648c8d469.html">Inapplicable Example 5</a>
         </th>
         <td class="">inapplicable</td>
-        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/c3cc2e9d19259f7a7ffa99818ac44d034127f01f.html">Inapplicable Example 6</a>
         </th>
-        <td class="">inapplicable</td>
         <td class="">inapplicable</td>
       </tr>
       <tr>
@@ -4879,13 +4693,11 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/1846b9116a8563e653cee40753b4c904696851f9.html">Inapplicable Example 7</a>
         </th>
         <td class="">inapplicable</td>
-        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/0dcdacefc963adfbb2d3493e5468f8f12f0ac6de.html">Inapplicable Example 8</a>
         </th>
-        <td class="">inapplicable</td>
         <td class="">inapplicable</td>
       </tr>
     </tbody>
@@ -4896,14 +4708,14 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
 <p>
   This rule is implemented by Equal Access Accessibility Checker using the
   <code>aria_parent_required:Pass_0,Fail_1</code> procedure.
-  The implementation is  partially 
-   consistent with the
+  The implementation is 
+    fully  consistent with the
   <a href="/WAI/standards-guidelines/act/rules/ff89c9/proposed/">ARIA required context role</a>
    proposed rule.
     It covers all 15 examples.
   
   
-    The implementation reports different success criteria as failed from what is expected by this rule.
+    The implementation correctly reports which success criteria are failed by this rule.
   
   See <a href="../#understanding-act-consistency">understanding ACT consistency</a>.
 </p>
@@ -4929,8 +4741,8 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
         
           <ul>
             <li>
-              4.1.2
-              Name, Role, Value
+              1.3.1
+              Info and Relationships
             </li>
           </ul>
         
@@ -5049,14 +4861,14 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
 <p>
   This rule is implemented by Equal Access Accessibility Checker using the
   <code>aria_child_valid:Pass,Fail_no_child,Fail_invalid_child</code> procedure.
-  The implementation is  partially 
-   consistent with the
+  The implementation is 
+    fully  consistent with the
   <a href="/WAI/standards-guidelines/act/rules/bc4a75/proposed/">ARIA required owned elements</a>
    proposed rule.
     It covers all 17 examples.
   
   
-    The implementation reports different success criteria as failed from what is expected by this rule.
+    The implementation correctly reports which success criteria are failed by this rule.
   
   See <a href="../#understanding-act-consistency">understanding ACT consistency</a>.
 </p>
@@ -5082,8 +4894,8 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
         
           <ul>
             <li>
-              4.1.2
-              Name, Role, Value
+              1.3.1
+              Info and Relationships
             </li>
           </ul>
         
@@ -5494,7 +5306,7 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
 <h3 id="breakdown-4e8ab6">Element with role attribute has required states and properties</h3>
 <p>
   This rule is implemented by Equal Access Accessibility Checker using the
-  <code>aria_attribute_required:Pass_0,Fail_1</code>, and <code>combobox_popup_reference:Pass_1.0_expanded,Pass_1.0_collapsed,Pass_1.2_expanded,Pass_1.2_collapsed,Fail_1.2_missing_controls,Fail_1.2_popup_reference_missing</code> procedures.
+  <code>aria_attribute_required:pass,fail_missing</code>, and <code>combobox_popup_reference:Pass_1.0_expanded,Pass_1.0_collapsed,Pass_1.2_expanded,Pass_1.2_collapsed,Fail_1.2_missing_controls,Fail_1.2_popup_reference_missing</code> procedures.
     Failed examples should be failed by <em>at least one</em> of these procedures.
   The implementation is 
     fully  consistent with the
@@ -5539,7 +5351,7 @@ Results indicate the rule ids and reason codes related to the ACT rule are gener
     <thead>
       <tr>
         <th></th>
-        <th>aria_attribute_required:Pass_0,Fail_1</th>
+        <th>aria_attribute_required:pass,fail_missing</th>
         <th>combobox_popup_reference:Pass_1.0_expanded,Pass_1.0_collapsed,Pass_1.2_expanded,Pass_1.2_collapsed,Fail_1.2_missing_controls,Fail_1.2_popup_reference_missing</th>
       </tr>
     </thead>
@@ -5876,9 +5688,9 @@ https://github.com/w3c/wcag-act-rules/edit/master/content/implementations/equal-
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1723104793162122925"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1723117544323383893"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1723104793162122925"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1723117544323383893"></script>
 <script>
   svg4everybody();
 </script><script>
