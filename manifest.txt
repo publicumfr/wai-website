@@ -703,6 +703,7 @@
 /content-assets/wai-aria-practices/shared/css/github.css
 /content-assets/wai-aria-practices/shared/js/app.js
 /content-assets/wai-aria-practices/shared/js/examples.js
+/content-assets/wai-aria-practices/shared/js/filterBySearch.js
 /content-assets/wai-aria-practices/shared/js/highlight.pack.js
 /content-assets/wai-aria-practices/shared/js/skipto.js
 /content-assets/wai-aria-practices/shared/js/specLinks.mjs
