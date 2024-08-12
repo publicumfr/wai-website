@@ -2243,6 +2243,7 @@
 /content-images/about/wai-tools/video3.vtt
 /content-images/about/wai-tools/video4.vtt
 /content-images/about/wai-tools/video5.vtt
+/content-images/accessibility-principles/social.png
 /content-images/business-case/brand.svg
 /content-images/business-case/business-case.svg
 /content-images/business-case/innovation-zoomed.svg
@@ -2517,7 +2518,6 @@
 /content-images/w3c-process/pr.gif
 /content-images/w3c-process/rec.gif
 /content-images/w3c-process/wd.gif
-/content-images/wai-accessibility-principles/social.png
 /content-images/wai-aria-practices/images/DHTMLexample.png
 /content-images/wai-aria-practices/images/accessibleJSelement.png
 /content-images/wai-aria-practices/images/accessibleelement.png
