@@ -3550,7 +3550,9 @@
 /test-evaluate/tools/fr.html
 /test-evaluate/tools/index.html
 /test-evaluate/tools/list/index.html
+/test-evaluate/tools/pl.html
 /test-evaluate/tools/selecting/index.html
+/test-evaluate/tools/selecting/pl.html
 /test-evaluate/tools/submit-a-tool/failure.html
 /test-evaluate/tools/submit-a-tool/index.html
 /test-evaluate/tools/submit-a-tool/success.html
@@ -3666,6 +3668,7 @@
 /wai-videos/evaluating/involving-users.fr.vtt
 /wai-videos/evaluating/tools-for-evaluating.en.vtt
 /wai-videos/evaluating/tools-for-evaluating.fr.vtt
+/wai-videos/evaluating/tools-for-evaluating.pl.vtt
 /wai-videos/foundations-course/foundations-course-teaser.en.vtt
 /wai-videos/involving-users/involving-users-cc.vtt
 /wai-videos/people-use-web/abilities-barriers_auditory.en.vtt
