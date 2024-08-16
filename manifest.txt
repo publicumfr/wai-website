@@ -3110,6 +3110,7 @@
 /people-use-web/tools-techniques/navigation/index.html
 /people-use-web/tools-techniques/perception/index.html
 /people-use-web/tools-techniques/presentation/index.html
+/people-use-web/user-stories/archived.html
 /people-use-web/user-stories/es.html
 /people-use-web/user-stories/fr.html
 /people-use-web/user-stories/index.html
