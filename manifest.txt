@@ -2814,6 +2814,7 @@
 /design-develop/es.html
 /design-develop/fr.html
 /design-develop/index.html
+/example-link/index.html
 /expand-access/index.html
 /favicon.ico
 /feed.json
@@ -3134,7 +3135,7 @@
 /people-use-web/tools-techniques/navigation/index.html
 /people-use-web/tools-techniques/perception/index.html
 /people-use-web/tools-techniques/presentation/index.html
-/people-use-web/user-stories/archived.html
+/people-use-web/user-stories/archived/index.html
 /people-use-web/user-stories/es.html
 /people-use-web/user-stories/fr.html
 /people-use-web/user-stories/index.html
@@ -3597,6 +3598,7 @@
 /tutorials/forms/multi-page/index.html
 /tutorials/forms/notifications/index.html
 /tutorials/forms/validation/index.html
+/tutorials/images/beyond.html
 /tutorials/images/complex/index.html
 /tutorials/images/decision-tree/de.html
 /tutorials/images/decision-tree/fr.html
