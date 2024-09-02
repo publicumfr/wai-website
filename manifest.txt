@@ -241,6 +241,7 @@
 /about/groups/task-forces/matf/index.html
 /about/groups/task-forces/maturity-model/index.html
 /about/groups/task-forces/maturity-model/work-statement/index.html
+/about/groups/task-forces/personalization/index.html
 /about/groups/task-forces/practices/index.html
 /about/groups/task-forces/practices/work-statement/index.html
 /about/groups/task-forces/pronunciation/index.html
