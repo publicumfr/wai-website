@@ -9,15 +9,15 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1725289726643482103";
+      element.src = "/WAI/assets/scripts/main.js?1725379015012883017";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1725289726643482103">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1725379015012883017">
 
-<title> EARL Reporting Format |  | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1725289726643482103"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title> EARL Reporting Format |  | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1725379015012883017"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.3" />
 <meta property="og:title" content="EARL Reporting Format" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -275,6 +275,8 @@ h2#sidebar-header {
                 
                 <li><a href="#understanding-the-reporting-format">Understanding the Reporting format</a></li>
                 
+                <li><a href="#assertor">Assertor</a></li>
+                
                 </ul>
             </div>
           </nav>
@@ -445,6 +447,26 @@ h2#sidebar-header {
 <p>The format of the <code class="language-plaintext highlighter-rouge">title</code> property in the <code class="language-plaintext highlighter-rouge">isPartOf</code> array is fairly permissive. To be recognized as a success criterion, the string <code class="language-plaintext highlighter-rouge">WCAG 2</code> or <code class="language-plaintext highlighter-rouge">WCAG2</code>, and the success criterion number (separated with dots) must be included. For example <code class="language-plaintext highlighter-rouge">WCAG 2.1 criterion 1.1.1 Non-text content</code> would be recognized. To explicitly add the success criterion ID the <code class="language-plaintext highlighter-rouge">@id</code> property can be used.</p>
 
 <p><strong>Advanced</strong>: All required properties map to <a href="http://www.w3.org/ns/earl#">EARL</a>, except for <code class="language-plaintext highlighter-rouge">isPartOf</code>, <code class="language-plaintext highlighter-rouge">title</code>, and <code class="language-plaintext highlighter-rouge">source</code> which are properties of <a href="http://purl.org/dc/terms/">Dublin Core</a>. Property names can be anything, as long as they can be expanded to the correct URL.</p>
+
+<h2 id="assertor">Assertor</h2>
+
+<p>An <code class="language-plaintext highlighter-rouge">Assertor</code> object can be used to provide information about the tool or test methodology which produced the results. While EARL supports different assertions having different assertors, for the ACT format only the <strong>first assertor</strong> in an EARL report will be used. Declaring the <code class="language-plaintext highlighter-rouge">Assertor</code> is particularly useful for dynamic information such as a version number. The <code class="language-plaintext highlighter-rouge">Assertor</code> takes the following format:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+	</span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.w3.org/WAI/content-assets/wcag-act-rules/earl-context.json"</span><span class="p">,</span><span class="w">
+	</span><span class="nl">"@graph"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+		</span><span class="err">///</span><span class="w"> </span><span class="err">...</span><span class="w"> </span><span class="err">other</span><span class="w"> </span><span class="err">data</span><span class="w">
+		</span><span class="p">{</span><span class="w">
+			</span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Assertor"</span><span class="p">,</span><span class="w">
+			</span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"My Accessibility Solution"</span><span class="p">,</span><span class="w">
+			</span><span class="nl">"release"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+				</span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Version"</span><span class="p">,</span><span class="w">
+				</span><span class="nl">"revision"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1.0"</span><span class="w">
+			</span><span class="p">},</span><span class="w">
+		</span><span class="p">}</span><span class="w">
+	</span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
  
 
       </main>
@@ -509,9 +531,9 @@ https://github.com/w3c/wcag-act-rules/edit/master/content/report/earl.md
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1725289726643482103"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1725379015012883017"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1725289726643482103"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1725379015012883017"></script>
 <script>
   svg4everybody();
 </script><script>
